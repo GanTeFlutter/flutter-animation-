@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_application_1/icons_kure.dart';
-import 'package:flutter_application_1/icons_kure_rast_gele.dart';
+import 'package:flutter_application_1/animation-1/animation1_home_view.dart';
 
 void main() {
   runApp(const MyApp());
@@ -19,34 +18,8 @@ class MyApp extends StatelessWidget {
   }
 }
 
-class GlobeOfTextExample extends StatelessWidget {
-  const GlobeOfTextExample({super.key});
 
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      backgroundColor: Colors.black,
-      appBar: AppBar(
-        title: const Text('Globe of 0 and 1'),
-      ),
-      body: const Center(
-        child: Column(
-          children: [
-            Expanded(
-              child: GlobeOfText(
-                radius: 200.0,
-                defaultTextColor: Color.fromARGB(255, 255, 0, 225),
-              ),
-            ),
-            Expanded(
-              child: GlobeOfText2(
-                radius: 200.0,
-                defaultTextColor: Color.fromARGB(255, 255, 0, 225),
-              ),
-            ),
-          ],
-        ),
-      ),
-    );
-  }
-}
+/// Animation 1
+/// Readme de hangi kodun hangi dosyada olduğunu belirttim resimleride ekledim bakarak istediğinizi çalıştırabilirsiniz
+/// Alttaki kodu kopyalayıp yukaridaki Home kısmının yerine yapıştırın 
+// home: GlobeOfTextExample(),
