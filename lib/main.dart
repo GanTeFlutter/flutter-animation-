@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
 }
 
 
+///Hangi animasyonu görmek istiyorsanız onu seçin.Home ekleyin
+
 /// Animation 1
-/// Readme de hangi kodun hangi dosyada olduğunu belirttim resimleride ekledim bakarak istediğinizi çalıştırabilirsiniz
-/// Alttaki kodu kopyalayıp yukaridaki Home kısmının yerine yapıştırın 
-// home: GlobeOfTextExample(),
+// GlobeOfTextExample(),
